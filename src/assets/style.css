@@ -1,0 +1,222 @@
+.navbarMainDiv{
+    display: flex;
+    color: white;
+    background-color: #24292f;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 10px;
+    margin-bottom:30px
+}
+.navbarMainDiv img{
+    width: 38px;
+    height: 39px;
+    margin-right: 5px;
+}
+
+.navbarSubDiv{
+    display: flex;
+    align-items: center;
+}
+.navList{
+    margin:0px 10px 0px 10px;
+}
+.navList:hover{
+    color:grey;
+    cursor: pointer;
+}
+.navbarSubDiv input{
+    border: 1px solid #57606a;
+    height: 30px;
+    border-radius: 4px;
+    background: transparent;
+    color: #57606a;
+    margin-right: 15px;
+}
+.navbarSubDiv input:focus{
+    background: white;
+    color: black;
+    border: 1px solid #57606a;
+}
+.signInBtn{
+    margin-right: 14px;
+    background: transparent;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 4px;
+}
+.signUpBtn{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    height:30px;
+    border-radius: 4px;
+}
+.navbarSubDiv button:hover{
+    color:grey;
+    cursor: pointer;
+}
+.signUpBtn:hover{
+    border: 1px solid grey;
+}
+.subNavbarDivTwo{
+    display: flex;
+    width: 75%; 
+    margin-bottom:5px;
+    padding-left:15px 
+}
+.subNavbarItems{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.subNavbarItems:hover{
+background-color: #f0f2f4;
+}
+.subNavbarItems.active span{
+font-weight: 600;
+}
+hr{
+    border: 1px solid darkgrey;
+    border-top: 0px;
+}
+.repoSearchDiv{
+    width: 70%;
+    padding:12px 15px 0px 25px
+}
+.repoSearch{
+    display: flex;
+}
+.repoSearch input{
+    width: 65%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid darkgrey;
+    margin-right: 10px;
+}
+.repoSearch button{
+    height: 30px;
+    border: 1px solid darkgrey;
+    background-color: #f6f8fa;
+    border-radius: 4px;
+    min-width: 60px;
+    margin-left: 5px;
+    color: #3d4247;
+    font-weight: bold;
+}
+.repoSearch button:hover{
+    background-color:  #f3f4f6;
+    cursor: pointer;
+}
+.downIcon{
+    position: relative;
+    top:2px
+}
+.popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px 0px 5px 0px;
+  }
+  .hrMargin{
+   margin-block-start: 0px;
+   margin-block-end: 0px;
+  }
+ .menuItemHeading{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px;
+
+ }
+  .menu-item{
+    padding: 8px;
+    font-size: 12px;
+  }
+  .menu-item:hover{
+   background-color: #f4f6f8;
+   cursor: pointer;
+  }
+  .clearFilterIcon{
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+  }
+  .filterDetailsMessage{
+    display: flex;
+    justify-content: space-between;
+  }
+  .clearFilter{
+    font-weight: bold;
+  }
+  .clearFilter:hover{
+    color:#0969da;
+    cursor: pointer;
+    
+  }
+  .repoTitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0969da
+  }
+  .repoTitle:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .repoChipPublic{
+    margin-left: 20px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid darkgrey;
+  }
+  .repoPara{
+    font-size: 14px;
+    color: #57606a;
+  }
+  .chips{
+    background-color: #DDF4FF;
+    border-radius: 15px;
+    border: 0px;
+    font-size: 12px;
+    padding: 4px 10px;
+    color: #0969da;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .repoSpan{
+    margin-right:16px;
+    font-size:12.5px;
+    color: #57606a;
+  }
+  .loaderIcon{
+    display:flex;
+    justify-content:center;
+    margin-top:20%;
+  }
+  .activeMenu{
+    display: inline-block;
+    width: 20px; 
+  }
+  .editProfileBtn{
+    width: 95%;
+    height: 30px;
+    margin-left: 2.5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .userNameHead{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 2.5%;
+  }
+  .userName{
+    color:'darkgrey';
+    margin-left: 2.5%;
+  }
+  .profileDetailIcons{
+    margin-left: 2.5%;
+    position:relative;
+    top:2px
+  }
